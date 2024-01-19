@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Github Repositories listing page</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+
+     <!-- loader  -->
+    <div id="loader"></div>
+    <!-- input form -->
+    <form id="form" onsubmit="return formSubmit()">
+      <input type="text" id="search" placeholder="Enter GitHub username" />
+      <button type="submit" class="submit-btn">Search</button>
+    </form>
+    
+    <!-- main header -->
+    <div id="main"></div>
+
+     <!-- all repositories -->
+    <div id="repos"></div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
